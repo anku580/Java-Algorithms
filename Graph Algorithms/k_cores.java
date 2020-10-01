@@ -1,7 +1,7 @@
 // Java program to find K-Cores of a graph 
 import java.util.*; 
 
-class GFG 
+class k_cores 
 { 
 
 	// This class represents a undirected graph using adjacency 
