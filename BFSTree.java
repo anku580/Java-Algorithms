@@ -3,13 +3,13 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-class TreeNode3
+class TreeNode
 {
     int val;
-    TreeNode3 left;
-    TreeNode3 right;
+    TreeNode left;
+    TreeNode right;
 
-    TreeNode3(int val)
+    TreeNode(int val)
     {
         this.val = val;
         left = null;
@@ -17,9 +17,9 @@ class TreeNode3
     }
 }
 public class BFSTree {
-    public List<Integer> BFStraversal(TreeNode3 tree)
+    public List<Integer> BFStraversal(TreeNode tree)
     {
-        Queue<TreeNode3> queue  = new LinkedList<>();
+        Queue<TreeNode> queue  = new LinkedList<>();
 
         List<Integer> list = new ArrayList<>();
 
@@ -32,7 +32,7 @@ public class BFSTree {
 
         while(!queue.isEmpty())
         {
-            TreeNode3 t = queue.poll();
+            TreeNode t = queue.poll();
             list.add(t.val);
 
             if(t.left != null)
@@ -56,14 +56,14 @@ class BFSTreeDemo
       
 
         BFSTree b = new BFSTree();
-        TreeNode3 tree = null;
-        tree = new TreeNode3(10);
-        tree.left = new TreeNode3(11);
-        tree.right = new TreeNode3(15);
-        tree.left.left = new TreeNode3(16);
-        tree.right.right = new TreeNode3(17);
-        tree.left.right= new TreeNode3(19);
-        tree.right.left = new TreeNode3(20);
+        TreeNode tree = null;
+        tree = new TreeNode(10);
+        tree.left = new TreeNode(11);
+        tree.right = new TreeNode(15);
+        tree.left.left = new TreeNode(16);
+        tree.right.right = new TreeNode(17);
+        tree.left.right= new TreeNode(19);
+        tree.right.left = new TreeNode(20);
         System.out.println(b.BFStraversal(tree));
     }
 }
