@@ -1,7 +1,8 @@
-import java.util.*;  
- class Binarysearch {  
-public static void main(String[] args) {  
-    int[] arr = {16, 19, 20, 23, 45, 56, 78, 90, 96, 100};  
+import  java.util.*;  
+class Binarysearch {  
+public static void main(String[] args) 
+{  
+  int[] arr = {16, 19, 20, 23, 45, 56, 78, 90, 96, 100};  
     int item, location = -1;  
     System.out.println("Enter the item which you want to search");  
     Scanner sc = new Scanner(System.in);  
@@ -11,9 +12,9 @@ public static void main(String[] args) {
     System.out.println("the location of the item is "+location);  
     else   
         System.out.println("Item not found");  
-    }  
+ }  
+ 
 public static int binarySearch(int[] a, int beg, int end, int n)  
-
 {  
     int mid;  
     if(end >= beg)   
