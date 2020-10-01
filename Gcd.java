@@ -1,4 +1,4 @@
-public class gcd
+public class Gcd
 {
     // Recursive function to return gcd of a and b
     static int gcd(int a, int b)
