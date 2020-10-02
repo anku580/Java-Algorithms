@@ -33,17 +33,17 @@ public static void main(String[] args)
 }
 ```
 
-###Q3- Can we declare the main method of our class as private?
+### Q3- Can we declare the main method of our class as private?
 
 A3- 
-In java, main method must be public static in order to run any application correctly. If main method is declared as private, developer won't get any compilation error however, it will not get executed and will give a runtime error. 
+> In java, main method must be public static in order to run any application correctly. If main method is declared as private, developer won't get any compilation error however, it will not get executed and will give a runtime error. 
 
-###Q4- Is there any way to skip Finally block of exception even if some exception occurs in the exception block?
+### Q4- Is there any way to skip Finally block of exception even if some exception occurs in the exception block?
 
 A4-
-If an exception is raised in Try block, control passes to catch block if it exists otherwise to finally block. Finally block is always executed when an exception occurs and the only way to avoid execution of any statements in Finally block is by aborting the code forcibly by writing following line of code at the end of try block:
+> If an exception is raised in `Try` block, control passes to `catch` block if it exists otherwise to finally block. `Finally` block is always executed when an exception occurs and the only way to avoid execution of any statements in Finally block is by aborting the code forcibly by writing following line of code at the end of try block:
 
-System.exit(0);
+```System.exit(0);```
 
 
 
