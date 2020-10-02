@@ -1,7 +1,7 @@
 // Java program to check if a number is  
 // Kaprekar number or not 
   
-class GFG  
+class KapreKar
 { 
     // Returns true if n is a Kaprekar number, else false 
     static boolean iskaprekar(int n) 
