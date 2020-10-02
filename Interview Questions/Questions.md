@@ -45,13 +45,22 @@ A4-
 
 ```System.exit(0);```
 
-### Q4 - What is System class?
+### Q5- What is System class?
 
-A4-
+A5-
 > System.class is a final class provided by java.lang package. It
 contains several useful class fields and methods.
 The purpose of System class is to provide access to system
 resources.
 
+### Q6- What is the difference between Singleton class and Static class?
+
+A6- 
+> A static class in Java has only static methods. It is a container of
+functions. It is created based on procedural programming design.
+Singleton class is a pattern in Object Oriented Design. A Singleton
+class has only one instance of an object in JVM. This pattern is
+implemented in such a way that there is always only one instance of
+that class present in JVM.
 
 
