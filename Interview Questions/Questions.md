@@ -48,19 +48,36 @@ A4-
 ### Q5- What is System class?
 
 A5-
-> System.class is a final class provided by java.lang package. It
-contains several useful class fields and methods.
-The purpose of System class is to provide access to system
+> System.class is a final class provided by java.lang package. It contains several useful class fields and methods. The purpose of System class is to provide access to system
 resources.
 
 ### Q6- What is the difference between Singleton class and Static class?
 
 A6- 
-> A static class in Java has only static methods. It is a container of
-functions. It is created based on procedural programming design.
-Singleton class is a pattern in Object Oriented Design. A Singleton
-class has only one instance of an object in JVM. This pattern is
+ * A static class in Java has only static methods. It is a container of functions. It is created based on procedural programming design. Singleton class is a pattern in Object Oriented Design. 
+ * A Singletonclass has only one instance of an object in JVM.  This pattern is
 implemented in such a way that there is always only one instance of
 that class present in JVM.
 
+### Q7 - What are Wrapper classes in Java?
+A7-
+> Java has concept of Wrapper classes to allow primitive types to be
+accessed as objects. Primitive types like boolean, int, double, float
+etc. have corresponding Wrappers classes – Boolean, Integer,
+Double, Float etc.
+Many of these Wrapper classes are in java.lang package.
+Java 5.0 has launched the concept of Autoboxing and Unboxing in
+Java for Wrapper classes.
+```java
+ public class WrapperTest {
+            public static void main(String args[]) {
+                                                
+            int count=50;                                   //Converting int into Integer
+            Integer i=Integer.valueOf(count);//converting int into Integer
+            Integer j=a;//autoboxing, now compiler will write
+            Integer.valueOf(count) internally
+            System.out.println(count+" "+i+" "+j);
+      }
+}
+```
 
