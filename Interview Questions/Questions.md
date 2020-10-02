@@ -45,5 +45,13 @@ A4-
 
 ```System.exit(0);```
 
+### Q4 - What is System class?
+
+A4-
+> System.class is a final class provided by java.lang package. It
+contains several useful class fields and methods.
+The purpose of System class is to provide access to system
+resources.
+
 
 
