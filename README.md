@@ -23,6 +23,6 @@ This Hactoberfest, we have brought you this repo where you can contribute your J
 * [Prims Algo](/PrimsAlgorithm.java)
 * [Randomised Quick Sort](/Randomized_Quick_Sort.java)
 * [Selection Sort](selectionSort.java)
-  
-
+* [Stack](/Stack/Stack.java)
+* [Queue](/Queue/Queue.java)
 ### Happy Coding 👩‍💻👨‍💻
