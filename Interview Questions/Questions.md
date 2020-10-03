@@ -79,5 +79,11 @@ Java for Wrapper classes.
             System.out.println(count+" "+i+" "+j);
       }
 }
-```
+
+
+### Q7- You have 10 balls and a scale, find the heaviest ball in the least interations.
+
+A6- 
+ >  Seperate the balls into two groups of 5 and place each group on the scale.  Take balls from the heaviest side, put 1 on the side and weigh two on each side.  If even, heaviest one is on the side.  If the scale dips weigh those balls.  Least amount of iterations is 3.
+ >  It's a logic puzzle to see how you willl troubleshoot through a problem.
 
