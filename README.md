@@ -4,7 +4,7 @@
 
 ### 👋 Hi coders !!!
 
-This Hactoberfest, we have brought you this repo where you can contribute your Java Algorithms. So, contribute here and get a chance to win Hacktoberfest Tees. 👕
+This Hacktoberfest, we have brought you this repo where you can contribute your Java Algorithms. So, contribute here and get a chance to win Hacktoberfest Tees. 👕
 <hr>
 
 ### Algos added till now..
