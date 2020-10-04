@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class balancedBrackets {
 
     // Complete the isBalanced function below.
     static String isBalanced(String s) throws Exception {
