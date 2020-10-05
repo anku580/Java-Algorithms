@@ -1,10 +1,9 @@
-// Java program for Prim's MST for 
-// adjacency list representation of graph 
+
 import java.util.LinkedList; 
 import java.util.TreeSet; 
 import java.util.Comparator; 
 
-public class prims { 
+public class Minimum_spanning_tree { 
 	class node1 { 
 
 		// Stores destination vertex in adjacency list 
@@ -171,4 +170,3 @@ public class prims {
 		e.prims_mst(graph); 
 	} 
 } 
-// This code is contributed by Vikash Kumar Dubey 
