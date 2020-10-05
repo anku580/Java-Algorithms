@@ -1,4 +1,4 @@
- class GFG  
+ class binaryPalindrome 
 { 
   
     static int isKthBitSet(long x, long k)  
